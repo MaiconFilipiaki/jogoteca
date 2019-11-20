@@ -25,7 +25,7 @@ pygobject==3.22.0
 pylint==1.9.5
 pysmbc==1.0.15.6
 pyxdg==0.25
-PyYAML==3.12
+PyYAML==5.1
 SecretStorage==2.3.1
 singledispatch==3.4.0.3
 six==1.13.0
