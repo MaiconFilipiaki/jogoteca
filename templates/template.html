@@ -9,9 +9,17 @@
 <body>
     <div class="container">
       <div class="page-header">
-          <h1>{{ titulo }}</h1>
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <ul class=flashes>
+              {% for message in messages %}
+                <li class="alert alert-success">{{ message }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        {% endwith %}
+         <h1>{{ titulo }}</h1>
       </div>
-
         {% block conteudo %}
         {% endblock %}
 
