@@ -3,7 +3,7 @@ backports.functools-lru-cache==1.6.1
 cliapp==1.20160724
 colorama==0.3.7
 configparser==4.0.2
-cryptography==1.7.1
+cryptography==3.2
 decorator==4.0.11
 dnspython==1.15.0
 enum34==1.1.6
